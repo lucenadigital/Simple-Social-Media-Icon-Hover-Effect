@@ -1,0 +1,31 @@
+ul.social { 
+	list-style: none; 
+	margin: 60px 0;
+	padding-left:0;
+}
+.social li { 
+	line-height: 1;
+	display: inline-block;
+}
+.social a {
+    -webkit-transition: background-position 200ms ease;
+    -moz-transition: background-position 200ms ease;
+    -o-transition: background-position 200ms ease;
+    transition: background-position 200ms ease;
+    display: block;
+    width: 35px;
+    height: 30px;
+    background: url(images/social-img-spry-assets.gif) 0 0 no-repeat;
+
+}
+.social .social--facebook a { background-position: -3px 0; }
+.social .social--facebook a:hover{background-position:-3px -39px}
+.social .social--twitter a { background-position: -40px 0; }
+.social .social--twitter a:hover{background-position:-40px -39px}
+.social .social--linkedin a { background-position: -79px 0; }
+.social .social--linkedin a:hover{background-position:-79px -39px}
+.social .social--pinterest a { background-position: -117px 0; }
+.social .social--pinterest a:hover{background-position:-117px -39px}
+ul.social span {
+    display: none;
+}
